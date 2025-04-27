@@ -1,11 +1,12 @@
 package com.example.backend.repository;
 
-import com.example.backend.model.Status;
+import java.util.Date;
+import java.util.List;
+
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.Date;
-import java.util.List;
+import com.example.backend.model.Status;
 
 @Repository
 public interface StatusRepository extends MongoRepository<Status, String> {
