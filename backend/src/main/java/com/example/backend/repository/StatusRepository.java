@@ -12,4 +12,4 @@ import com.example.backend.model.Status;
 public interface StatusRepository extends MongoRepository<Status, String> {
 
     List<Status> findByExpiredAtBefore(Date currentDate);
-}
+};
